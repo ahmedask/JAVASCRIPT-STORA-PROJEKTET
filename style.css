@@ -1,0 +1,43 @@
+/* Hela sidan */
+
+*{
+    list-style: none;
+    background-color: rgb(136, 87, 112);    
+}
+
+
+/* Landing page*/
+.wrapper {
+    display:flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.wrapper > * {
+    padding: 10px;
+    margin: 10px;
+    flex: 1 100%;
+    border-radius: 10px;
+}
+
+.header{
+    height: 120px;
+    font-size: 50px;
+    font-family:fantasy;
+    margin: 40px; 
+}
+
+/* Main page*/
+.search {
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+}
+
+footer{
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
